@@ -25,7 +25,9 @@
 > - StreamAPI 
 
 > - Optional 객체<br>
-> 따로 Optional 객체를 사용하지 않아도 null 여부 판별은 가능한데 왜 Optional 객체를 사용해주는 것인지 조사해보자
+> 따로 Optional 객체를 사용하지 않아도 null 여부 판별은 가능한데 왜 Optional 객체를 사용해주는 것인지 조사해보자<br>
+> 좋은 예제가 있으니 시간날 때 참고하도록 하자<br>
+> <a>https://www.daleseo.com/java8-optional-before/
 
 ### 섹션3. 회원 리포지토리 테스트 케이스 작성
 
