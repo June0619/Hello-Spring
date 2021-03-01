@@ -38,7 +38,11 @@ TDD 방법론
    - Ctrl + Alt + Shift + T > Refactor 관련 기능 (이번 수업에서 사용한 것은 Extract Method) <br>
    - Ctrl + Alt + V > 자동으로 자료형에 맞게 변수에 할당 된다.
 
+### 섹션4. 스프링 빈과 의존관계
+
  - Spring DI
    - Controller, Service, Repository 등의 어노테이션을 찾아 객체를 주입하는 것을 컴포넌트 스캔이라고 한다. 실제 위의 해당 어노테이션들은 @Component 어노테이션의 하위 어노테이션이다. 
    - 의존성 주입에는 생성자 주입, 필드 주입, setter 주입 세 가지 유형이 있다. (권장은 생성자 주입)
-    
+   
+### 섹션5. 회원 관리 예제 - 웹 MVC 개발
+   
