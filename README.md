@@ -9,7 +9,7 @@
 
 > <a>https://gist.github.com/ihoneymon/652be052a0727ad59601
 
-> 21년 3월 2일까지 완강 예정
+> 21년 3월 7일까지 완강 예정
 
 > build.gradle 에 dependency 추가 시 추가된 의존성이 프로젝트로 임포트 되지 않는 이슈가 있음.
 > gradle refresh, project close 후 import 등 일반적으로 검색하면 나오는 해결 방법들은 거의
