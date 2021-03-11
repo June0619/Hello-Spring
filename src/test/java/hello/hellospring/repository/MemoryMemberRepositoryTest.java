@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.*;
  */
 public class MemoryMemberRepositoryTest {
 
-    MemberRepository repository = new MemoryMemberRepository();
+    MemoryMemberRepository repository = new MemoryMemberRepository();
 
     //클래스 전체의 테스트를 실행 시 각 메서드 실행 단위마다 repository 가 초기화 되지 않아 테스트를 실패할 수 있음
     //따라서 실행 종료 후 repository clear 동작을 실시해주는 기능이 필요함
