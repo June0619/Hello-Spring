@@ -78,6 +78,7 @@ TDD 방법론
     - 자세한 사양은 공식문서를 참조해보자
     
 - JPA
+    - 관계형 데이터베이스에서 자동으로 증가하는 key value 를 identity strategy 라고 한다. (Auto Increment)
     - 
     
 
