@@ -79,7 +79,14 @@ TDD 방법론
     
 - JPA
     - 관계형 데이터베이스에서 자동으로 증가하는 key value 를 identity strategy 라고 한다. (Auto Increment)
-    - 
+    - config 
+        - jpa.sql-show > jpa 에서 생성하는 쿼리 출력 여부 옵션
+        - jpa.hibernate.ddl-auto > jpa 에서 쿼리를 위해 자동으로 테이블을 생성할지 결정하는 옵션
+    - <b>JPA 를 통한 모든 변경사항은 반드시 @Transaction 어노테이션과 함께 트랜잭션 안에서 실행해야 한다.</b>
+
+- Spring Data JPA
+    - 반드시 JPA 에 관한 공부가 선행되어야 한다.
+    
     
 
    
