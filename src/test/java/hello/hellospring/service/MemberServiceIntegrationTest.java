@@ -25,7 +25,7 @@ public class MemberServiceIntegrationTest {
 
     // given when then 주석을 습관화 하자
     @Test
-    @Commit //-> 테스트 끝나면 커밋함
+//    @Commit //-> 테스트 끝나면 커밋함
     void 회원가입() {
         // given
         Member member = new Member();

@@ -24,11 +24,9 @@ public class MemberService {
 //        result.ifPresent(m -> {
 //            throw new IllegalStateException("이미 존재하는 회원입니다.");
 //        });
-
-        // Intellij Extract 기능 참고
-        validateDuplicateMember(member); // 중복 회원 검증
-        memberRepository.save(member);
-        return member.getId();
+            validateDuplicateMember(member); // 중복 회원 검증
+            memberRepository.save(member);
+            return member.getId();
     }
     
     private void validateDuplicateMember(Member member) {
@@ -44,7 +42,7 @@ public class MemberService {
      */
 
     public List<Member> findMembers(){
-        return memberRepository.findAll();
+            return memberRepository.findAll();
     }
 
     public Optional<Member> findOne(Long memberId) {

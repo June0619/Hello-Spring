@@ -86,6 +86,9 @@ TDD 방법론
 
 - Spring Data JPA
     - 반드시 JPA 에 관한 공부가 선행되어야 한다.
+    - 실무에서 ORM 만 가지고 모든 케이스를 다룰 수 없으므로 JdbcTemplate , DBMapper 와 병행하여 사용한다.
+    
+### 섹션7. AOP
     
     
 
